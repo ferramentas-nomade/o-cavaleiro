@@ -1,0 +1,527 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121102;
+    font-family: "Inter", "Roboto", Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../img/background-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    color: white;
+    padding: 50px 20px;
+    text-align: left;
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+main {
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-grup-1 {
+    width: 60%;
+    height: 100%;
+}
+
+.title {
+    font-size: 3rem;
+    color: #ffbd59;
+    text-align: center;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 4px;
+    background: #a67f46;
+    margin: 0.5rem auto;
+    border-radius: 2px;
+}
+
+.p-1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.text-grup-2 {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    /* background-color: aqua; */
+}
+
+.card-1 {
+    width: 70%;
+    max-width: 700px;
+    min-height: 400px;
+    background-color: black;
+
+    border-top: 3px solid #a67f46;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+
+}
+
+.card-1-container {
+    width: 95%;
+    /* background-color: brown; */
+
+}
+
+.card-1-img {
+    width: 100%;
+    height: 50%;
+    /* background-color: #ffbd59; */
+}
+
+.card-1-img img {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+.card-1-text {
+    margin-top: 1rem;
+    width: 90%;
+    height: 50%;
+    /* background-color: blue; */
+}
+
+.card-1-title {
+    font-size: 1.8rem;
+    color: #ffbd59;
+}
+
+.card-1-title::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    background: #a67f46;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+}
+
+.card-1-description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.text-grup-3 {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.5rem;
+    /* background-color: aqua; */
+}
+
+.card-2 {
+    width: 90%;
+    min-height: 200px;
+    background-color: black;
+
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+
+}
+
+.card-2-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+
+}
+
+.card-2-img {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    background: linear-gradient(to bottom, #ffbd59, #97723b);
+}
+
+.card-2-img img {
+    width: 170px;
+    height: 170px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+.card-2-text {
+    margin-left: 1.5rem;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.card-2-title {
+    font-size: 1.8rem;
+    color: #ffbd59;
+}
+
+.card-2-title::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    background: #a67f46;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+}
+
+.card-2-description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.ebock-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eBook-division {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    border-bottom-left-radius: 30px;
+}
+
+.eBook-text {
+    margin-left: 1.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ebook-title {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: #ffbd59;
+}
+
+.ebook-title::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    background: #a67f46;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+}
+
+.ebook-description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.ebook-ul {
+    list-style: none;
+    padding: 15px;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 2;
+    /* text-align: ; */
+    color: #ffbd59;
+}
+
+.ebock-container-bnt {
+    width: 50%;
+}
+
+.ebook-price {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ebook-description-price {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.preco_ancora {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.preco_ancora .cortado {
+    text-decoration: line-through;
+    color: #a67f46;
+}
+
+.preco_final {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.preco_final .final {
+    color: #ffbd59;
+}
+
+.btn_comprar {
+    margin-top: 1rem;
+    background: linear-gradient(90deg, #ffbd59, #a67f46);
+    box-shadow: 0 8px 18px rgba(34, 117, 173, 0.4);
+    color: #fff;
+    width: 70%;
+    height: 80px;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 8px 18px rgb(23, 19, 7);
+}
+
+.btn_comprar:hover {
+    background: linear-gradient(90deg, #a67f46, #ffbd59);
+    transform: scale(1.08);
+    box-shadow: 0 8px 18px rgb(69, 52, 1);
+}
+
+.timer_text {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#countdown1 {
+    font-size: 1.5rem;
+    color: #ffbd59;
+    font-weight: bold;
+}
+
+.eBook-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eBook-img img {
+    width: 90%;
+    height: 90%;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 20rem;
+    border-top: 3px solid #a67f46;
+    background-color: #000000;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    header {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url('../img/background-header-mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    main {
+        margin-top: 1rem;
+    }
+
+    .description {
+        width: 100%;
+        /* background-color: hsl(56, 85%, 48%); */
+    }
+
+    .text-grup-1 {
+        width: 100%;
+        /* background-color: aqua; */
+
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .p-1 {
+        font-size: 1rem;
+    }
+
+    .text-grup-2 {
+        flex-direction: column;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .card-1 {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        min-height: 630px;
+        max-height: none;
+        /* background-color: #a67f46; */
+    }
+
+    .card-1-title {
+        font-size: 1.2rem;
+    }
+
+    .card-1-description {
+        font-size: 0.90rem;
+    }
+
+    .card-2 {
+        width: 100%;
+        min-height: 400px;
+        /* background-color: brown; */
+    }
+
+    .card-2-title {
+        font-size: 1.2rem;
+    }
+
+    .card-2-description {
+        font-size: 0.90rem;
+    }
+
+    .card-2-text {
+        width: 70%;
+        margin-left: 1rem;
+    }
+
+    .card-2-img {
+        height: 40%;
+    }
+
+    .card-2-img img {
+        width: 90px;
+        height: 90px;
+        border-bottom-left-radius: 10px;
+        object-fit: cover;
+    }
+
+    .eBook-division {
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eBook-text {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        /* background-color: #ff5959; */
+        margin-left: 0;
+    }
+
+    .ebook-title {
+        font-size: 1.2rem;
+    }
+
+    .ebook-description {
+        font-size: 0.90rem;
+    }
+
+    .ebook-ul {
+        font-size: 1rem;
+    }
+
+    .ebook-description-price {
+        font-size: 1rem;
+    }
+
+    .preco_ancora {
+        font-size: 1.3rem;
+    }
+
+    .preco_final {
+        font-size: 1.4rem;
+    }
+
+    .timer_text {
+        font-size: 1rem;
+    }
+
+    .btn_comprar {
+        font-size: 1rem;
+    }
+
+    .eBook-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .eBook-img img {
+        width: 100%;
+        height: 100%
+    }
+
+    footer {
+        margin-top: 5rem;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+}
