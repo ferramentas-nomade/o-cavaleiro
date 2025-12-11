@@ -482,8 +482,13 @@ footer p {
         font-size: 0.90rem;
     }
 
+
     .ebook-ul {
         font-size: 1rem;
+    }
+
+    .ebook-price {
+        margin-bottom: 1rem;
     }
 
     .ebook-description-price {
@@ -518,10 +523,11 @@ footer p {
 
     footer {
         margin-top: 5rem;
+        padding: 20px;
     }
 
     footer p {
 
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 }
